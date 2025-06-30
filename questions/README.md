@@ -13,7 +13,7 @@ Problem: Calculate the sum of even numbers up to a given number n.
 <summary>
 3. Multiplication Table Printer
 </summary>
-Problem: Print the multiplication table for a given number up to 10, but skip the fifth iteration.
+Problem: Print the multiplication table for a given number up to 10.
 
 </details>
 
