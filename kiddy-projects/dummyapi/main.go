@@ -38,6 +38,8 @@ func main() {
 
 	r.GET("/jokes" , handlers.GetAllJokes);
 	r.GET("/jokes/random" , handlers.GetRandomJoke);
+
+	r.POST("/jokes/add" , handlers.AddJoke);
 	
 	// Serve static files (like Express's express.static())
 	r.ServeFiles("/public/*filepath", http.Dir("public"));
