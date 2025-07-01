@@ -15,7 +15,8 @@ func main() {
 	// Routes Handling:
 	
 	r.GET("/jokes" , handlers.GetAllJokes);
-
+	r.GET("/jokes/random" , handlers.GetRandomJoke);
+	
 	// Serve static files (like Express's express.static())
 	r.ServeFiles("/public/*filepath", http.Dir("public"));
 
